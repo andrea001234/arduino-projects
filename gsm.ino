@@ -128,7 +128,7 @@ void broi()
       EEPROM.get(addr,izeeproma);
       Serial.println(izeeproma);
    
-   if(String(numtel) = izeeproma)
+   if(String(numtel) == izeeproma)
       servo();
    else
    Serial.println("Broj nije tocan"); 
